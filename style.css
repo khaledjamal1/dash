@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+    overflow: hidden;
+}
+.dash{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    width: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #34abeb;
+    height: 100vh;
+    padding-top: 40px;
+    
+    
+}
+.sidebar div{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.header1{
+    display: flex;
+    flex-direction: column;
+}
+.header1-top{
+    display: flex
+    
+    
+}
+.header1-top div{
+    display: flex;
+    justify-content: center;
+}
+.header1-bottom{
+    display: flex;
+    justify-content: space-around;
+}
+.header1-bottom>div{
+    display: flex;
+    padding-bottom: 0;
+}
+.header1-top input{
+    width: 300px;
+}
+.header1-bottom button{
+    height: 40px;
+    width: 120px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: aqua;
+    border-radius: 5px;
+    box-shadow: 5px;
+    border: solid 2px aqua;
+}
+.header1-bottom h2{
+    padding-top: 15px;
+    padding-left: 10px
+}
+.content{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    background-color: #89a3c9;
+    
+    box-shadow: inset 0 0 5px 0 currentColor;
+    height: 100vh;
+    justify-content: center;
+    padding-left: 100px;
+   
+}
+.projects{
+    grid-row: span 2;
+    grid-column: span 2;
+    padding: 15px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    margin-top: 10px;
+    
+    
+}
+
+.cards div{
+    
+    width: 400px;
+    overflow-wrap: break-word;
+    padding: 5px;
+    
+}
+.icons{
+    padding-bottom: 10px;
+}
+.card{
+    background-color: white;
+    margin-bottom: 5px;
+    width: 400px;
+    overflow-wrap: break-word;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0;
+}
+.annoucements{
+    padding-left: 90px;
+}
+.trending{
+    padding-left: 90px;
+}
+.annoucements1{
+    padding: 15px;
+    background-color: white;
+    width: 200px;
+    overflow-wrap: break-word;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0;
+    padding: 5px;
+}
+
+
+
+.trending1{
+    padding: 15px;
+    background-color: white;
+    width: 200px;
+    overflow-wrap: break-word;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0;
+    padding: 5px;
+}
